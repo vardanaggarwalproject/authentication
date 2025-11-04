@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { authClient } from "@/src/lib/auth-client";
-import { useAuth } from "@/src/context/AuthContext";
+import { useAuth } from "@/context/AuthContext";
+import { authClient } from "@/lib/auth-client";
+
 
 const Navbar = () => {
 //   const [user, setUser] = useState<any>(null);

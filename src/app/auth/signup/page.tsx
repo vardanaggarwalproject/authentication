@@ -1,6 +1,8 @@
 "use client"
-import { useAuth } from '@/src/context/AuthContext';
-import { authClient } from '@/src/lib/auth-client';
+import { useAuth } from '@/context/AuthContext';
+import { authClient } from '@/lib/auth-client';
+// import { useAuth } from '@/src/context/AuthContext';
+// import { authClient } from '@/src/lib/auth-client';
 import { redirect } from 'next/navigation';
 import React, { useState } from 'react'
 

@@ -1,6 +1,7 @@
 "use client";
+import { authClient } from "@/lib/auth-client";
 import { createContext, useContext, useState, useEffect } from "react";
-import { authClient } from "@/src/lib/auth-client";
+
 
 const AuthContext = createContext<any>(null);
 
